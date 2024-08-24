@@ -51,3 +51,14 @@ Los plugins en Maven son componentes que realizan tareas específicas durante el
 Repositorio de bibliotecas que Maven usa para descargar dependencias
 
 Permite a los desarrolladores declarar las dependencias en el archivo pom.xml, y Maven se encarga de descargar automáticamente estos artefactos y sus dependencias transitivas desde el repositorio central
+
+
+## 6 Objetivo del parametro Package
+
+El comando mvn package es para compilar y empaquetar un proyecto Maven.
+Es un objetivo del ciclo de vida de construcción y cuando lo ejecutas, automáticamente ejecuta todas las fases del ciclo anterior
+
+## 7 Ejecutar un maven desde la linea de comandos
+
+Se usa el plugin Maven Exec Plugin. Este plugin permite ejecutar clases Java desde Maven, lo que es útil para ejecutar aplicaciones o pruebas específicas.
+
