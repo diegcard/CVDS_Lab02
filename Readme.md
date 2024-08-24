@@ -81,3 +81,10 @@ mvn exec:java -Dexec.mainClass="com.example.App"
 ```mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.args="Hexagon"```
 
 ![img_2.png](img_2.png)
+
+
+
+
+## Patron de diseño usado:
+
+Usamos el Simple Factory ya que este es el más sencillo y el problema no requiere más, es decir con un simple swicth case implementamos que requerimientos requiere cada figura 
