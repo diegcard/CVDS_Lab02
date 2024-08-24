@@ -5,7 +5,8 @@ import edu.eci.cvds.patterns.shapes.concrete.Pentagon;
 import edu.eci.cvds.patterns.shapes.concrete.Quadrilateral;
 import edu.eci.cvds.patterns.shapes.concrete.Triangle;
 
-public class ShapeFactory {
+public class ShapeFactory implements ShapeFactoryMethod{
+
     public static Shape create(RegularShapeType type){
         switch (type){
             case Triangle:
