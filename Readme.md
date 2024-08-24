@@ -62,3 +62,8 @@ Es un objetivo del ciclo de vida de construcción y cuando lo ejecutas, automát
 
 Se usa el plugin Maven Exec Plugin. Este plugin permite ejecutar clases Java desde Maven, lo que es útil para ejecutar aplicaciones o pruebas específicas.
 
+Se ejecuta el comando:
+mvn exec:java
+
+Si deseas hacerlo sin instalar el plugin, usa:
+mvn exec:java -Dexec.mainClass="com.example.App"
