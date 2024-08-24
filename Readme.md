@@ -67,3 +67,17 @@ mvn exec:java
 
 Si deseas hacerlo sin instalar el plugin, usa:
 mvn exec:java -Dexec.mainClass="com.example.App"
+
+## Ejecucion del codigo
+
+```mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.args="qwerty"```
+
+![img.png](img.png)
+
+```mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.args="Pentagon"```
+
+![img_1.png](img_1.png)
+
+```mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.args="Hexagon"```
+
+![img_2.png](img_2.png)
